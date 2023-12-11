@@ -11,7 +11,7 @@ int main()
 {
 	//initwindow(800,500);
 	int gd=DETECT,gm,errorcode;
-	initgraph(&gd,&gm,"c:\\Tc\\BGI");
+	initgraph(&gd,&gm,NULL);
 	int x0,y0;
 	int xmax,ymax;
 	errorcode=graphresult();
